@@ -184,7 +184,8 @@ function onRemove(ele){
                    xhr.onload = function(){ 
                       if(xhr.status>=200 && xhr.status<=299){ 
                             ele.closest('.col-md-4').remove();    
-                         }
+                             snackbar('user deleted successfully...!','success'); 
+                        }
                   
                    }
                }
