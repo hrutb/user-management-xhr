@@ -130,7 +130,7 @@ function onSubmit(eve){
              let div= document.createElement('div');
                  div.id= res.id;
                  div.className="col-md-4 mb-5" 
-                 div.innerHMTL= `<div class="card">
+                 div.innerHTML = `<div class="card">
                                     <div class="card-header">
                                         <h5>Name:<span>${newObj.name}</span></h5>
                                     </div>
