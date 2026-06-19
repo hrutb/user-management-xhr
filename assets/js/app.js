@@ -317,5 +317,5 @@ function onUpdate(){
 
 
 
-addUser.addEventListener('submit', onSubmit);
+addUser.addEventListener('click', onSubmit);
 updateUser.addEventListener('click', onUpdate);
