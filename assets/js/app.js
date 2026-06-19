@@ -151,8 +151,9 @@ function onSubmit(eve){
                 
                userContainer.prepend(div); 
                spinner.classList.add('d-none')
+               userForm.reset();
                snackbar('User added successfully...!','success')
-            
+                 
             }else{
                spinner.classList.add('d-none')
                snackbar('User submit failed...!','error')
