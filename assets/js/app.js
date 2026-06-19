@@ -264,7 +264,7 @@ function onUpdate(){
         xhr.onload= function(){ 
             if(xhr.status>=200 && xhr.status<=299){ 
                 let col= document.getElementById(updateId);
-                    col.innerHTML =`<div class="card">
+                    col.innerHTML =`<div class="card userCard">
                                     <div class="card-header">
                                         <h5>Name:<span>${updateObj.name}</span></h5>
                                     </div>
